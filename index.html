@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="display">
+            <input type="text" id="display" readonly />
+        </div>
+        <div class="butoane">
+            <button class="btn" onclick="memoreaza()">M+</button>
+            <button class="btn" onclick="reapeleazaMemoria()">MR</button>
+            <button class="btn" onclick="sterge()">DEL</button>
+            <button class="btn" onclick="stergeUnCaracter()">Back</button>
+            <button class="btn" onclick="addToScreen('**')">X la Y</button>
+            <button class="btn" onclick="addToScreen('7')">7</button>
+            <button class="btn" onclick="addToScreen('8')">8</button>
+            <button class="btn" onclick="addToScreen('9')">9</button>
+            <button class="btn" onclick="addToScreen('+')">+</button>
+            <button class="btn" onclick="addToScreen('-')">-</button>
+            <button class="btn" onclick="addToScreen('4')">4</button>
+            <button class="btn" onclick="addToScreen('5')">5</button>
+            <button class="btn" onclick="addToScreen('6')">6</button>
+            <button class="btn" onclick="addToScreen('*')">*</button>
+            <button class="btn" onclick="addToScreen('/')">/</button>
+            <button class="btn" onclick="addToScreen('1')">1</button>
+            <button class="btn" onclick="addToScreen('2')">2</button>
+            <button class="btn" onclick="addToScreen('3')">3</button>
+            <button class="btn" onclick="addToScreen('.')">.</button>
+            <button class="btn" onclick="radical()">√</button>
+            <button class="btn" onclick="evalueaza()">=</button>
+            <button class="btn" onclick="addToScreen('0')">0</button>
+            <button class="btn" onclick="addToScreen('00')">00</button>
+            <button class="btn" onclick="addToScreen('(')">(</button>
+            <button class="btn" onclick="addToScreen(')')">)</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
