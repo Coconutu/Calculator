@@ -64,7 +64,7 @@ body {
     text-align: center;
     background-color: yellowgreen;
     border-radius: 10px;
-    width: 350px;
+    width: 100%;
     padding: 2px;
 }
 .btn{
@@ -96,7 +96,7 @@ body {
     height: 50px;
     cursor: pointer;
     background-color: blanchedalmond;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .btn:hover{
      background-color: rgb(237, 198, 138);
