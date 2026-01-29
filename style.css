@@ -91,9 +91,9 @@ body {
 }
 .btn{
     width: 60px;
-    height: 50px;
+    height: 60px;
     background-color: blanchedalmond;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .btn:hover{
      background-color: rgb(237, 198, 138);
