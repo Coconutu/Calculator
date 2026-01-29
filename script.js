@@ -8,13 +8,20 @@ function sterge(){
 }
 function evalueaza(){
     const screen=document.querySelector("#display");
+    if (screen.value.includes("c&r")){
+        const[deimpartit,impartitor]=screen.value.split('c&r');
+        const cat=Math.floor(deimpartit/impartitor);
+        const rest=eval(deimpartit%impartitor);
+        screen.value=cat+' r. '+rest;
+    }
+    else{
     try{
         screen.value=eval(screen.value);
     }
     catch (err){
         screen.value=err.text;
     }
-    
+    }
 }
 function stergeUnCaracter(){
     const screen=document.querySelector("#display");
