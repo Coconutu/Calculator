@@ -42,7 +42,7 @@ body {
     height: 60px;
     cursor: pointer;
     background-color: blanchedalmond;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 .btn:hover{
      background-color: rgb(237, 198, 138);
